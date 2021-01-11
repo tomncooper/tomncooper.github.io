@@ -3,6 +3,14 @@ title = "CV"
 +++
  
 ## Employment History
+
+**[Red Hat](https://www.redhat.com/en)**
+
+Senior software engineer (July 2019 - Present)
+
+Working on Red Hat's event streaming platform ([AMQ
+Streams](https://www.redhat.com/en/resources/amq-streams-datasheet)) based on [Apache
+Kafka](https://kafka.apache.org/) and [Strimzi](https://strimzi.io/).
                     
 **[Twitter](http://www.Twitter.com/)**
 
@@ -53,7 +61,18 @@ acoustic computer modelling.
 [Newcastle University](http://www.ncl.ac.uk/) - 
 [PhD Computer Science](http://www.ncl.ac.uk/computing/)
 
-(September 2015 - Present)
+(September 2015 - August 2020)
+
+My thesis won runner up in the [2020 SPEC Kaivalya Dixit Distinguished Dissertation Award](https://research.spec.org/news/single-view/article/winner-of-spec-kaivalya-dixit-distinguished-dissertation-award-2020.html):
+
+_"Given the high quality of dissertations nominated for this award, the committee decided
+to publicly recognize another dissertation as Runner Up, entitled 'Performance Modelling
+of Distributed Stream Processing Topologies' and authored by Thomas Cooper, also of
+Newcastle University, under the supervision of Dr Paul Ezhilchelvan. Members of the
+committee were impressed by the industrial relevance of the application scenario, the
+sophistication of the modeling employed and the 'exquisite, well-articulated' writing in
+the dissertation."_
+
 
 [Newcastle University](http://www.ncl.ac.uk) - 
 [PGDip Cloud Computing for Big Data](http://www.ncl.ac.uk/computing/)
