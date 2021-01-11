@@ -43,6 +43,8 @@ similar or better accuracy than the best performing machine learning based appro
 over a more diverse range of query types, using only a fraction of the performance data
 those approaches require.
 
+# Thesis Download
+
 You can download the full text of the thesis [here](/files/Thomas_Cooper_Thesis.pdf),
 however the introduction chapter is replicated on the page below and gives a good overview
 of the problem and the proposed solutions.
