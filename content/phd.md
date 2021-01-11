@@ -4,6 +4,45 @@ title = "PhD Research"
 
 # Performance modelling of distributed stream processing topologies
 
+Distributed stream processing systems (like Apache Storm, Heron and Flink) allow the
+processing of massive amounts of data with low latency and high throughput. Part of the
+power of these systems is their ability to scale the separate sections (operators) of a
+stream processing query to adapt to changes in incoming workload and maintain end-to-end
+latency or throughput requirements.
+
+Whilst many of the popular stream processing systems provide the functionality to scale
+their queries, none of them suggest to the user how best to do this to ensure better
+performance. The user is required to deploy the query, wait for it to stabilise, assess
+its performance, alter its configuration and repeat this loop until the required
+performance is achieved. This scaling decision loop is intensely time consuming and for
+large deployments the process can take days to complete. The time and effort involved also
+discourage users from changing the configuration once one is found to satisfy peak load.
+This leads to the over-provisioning of resources.
+
+To solve these issues a performance modelling system for stream processing queries is
+required. This would allow the performance effect of changes to a query's configuration to
+be assessed before they are deployed, reducing the time spent within the scaling decision
+loop. Previous research on auto-scaling systems using performance models has focused
+either; on queueing theory based approaches, which require small amounts of historical
+performance data but suffer from poor accuracy; or on machine learning based approaches
+which have better accuracy, but require large amounts of historical performance data to
+produce their predictions.
+
+The research detailed in this thesis is focused on showing that an approach based on
+queueing theory and discrete event simulation can be used, with only a relatively small
+amount of performance data, to provide accurate performance modelling results for stream
+processing queries. 
+
+We have analysed the many aspects involved in the operation of modern stream processing
+systems, in particular Apache Storm. From this we have created processes and models to
+predict end-to-end latencies for proposed configuration changes to running streaming
+queries. These predictions are validated against a diverse range of example streaming
+queries, under various workload environments and configurations. The evaluations show that
+for most query configurations, our approach can produce performance predictions with
+similar or better accuracy than the best performing machine learning based approaches,
+over a more diverse range of query types, using only a fraction of the performance data
+those approaches require.
+
 You can download the full text of the thesis [here](/files/Thomas_Cooper_Thesis.pdf),
 however the introduction chapter is replicated on the page below and gives a good overview
 of the problem and the proposed solutions.
