@@ -4,9 +4,9 @@ title = "CV"
  
 ## Employment History
 
-**[Red Hat](https://www.redhat.com/en)**
+**[Red Hat](https://www.redhat.com/)**
 
-Senior software engineer (July 2019 - Present)
+Principal Software Engineer (July 2019 - Present)
 
 Working on Red Hat's event streaming platform ([AMQ
 Streams](https://www.redhat.com/en/resources/amq-streams-datasheet)) based on [Apache
@@ -14,7 +14,7 @@ Kafka](https://kafka.apache.org/) and [Strimzi](https://strimzi.io/).
                     
 **[Twitter](http://www.Twitter.com/)**
 
-Software engineering Intern (March 2018 - June 2018)
+Software Engineering Intern (March 2018 - June 2018)
 
 During the final year of my PhD I spend several months working with the Real Time Compute
 team at Twitter's head quarters in San Francisco. I worked on a project
@@ -25,7 +25,7 @@ design and implementation, stream processing, graph analysis and graph databases
 
 **[Acritas](http://www.acritas.com/)**
 
-Software development Intern (March 2014 - July 2014)
+Software Development Intern (March 2014 - July 2014)
 
 During the summer term of my MSc I worked as a software development intern for Acritas. In
 this role I gained experience in building web applications using Python, Heroku and
