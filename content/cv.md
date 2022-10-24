@@ -4,13 +4,23 @@ title = "CV"
  
 ## Employment History
 
+**[Reddit](https://reddit.com)**
+
+Staff Software Engineer (October 2022 - Present)
+
+Working on the Data Processing and Work Foundation team. 
+Supporting Reddit's messaging (Apache Kafka) and stream processing (Apache Flink) infrastructure.
+
 **[Red Hat](https://www.redhat.com/)**
 
-Principal Software Engineer (July 2019 - Present)
+Principal Software Engineer (July 2019 - September 2022)
 
-Working on Red Hat's event streaming platform ([AMQ
+During my time at Red Hat I worked on their event streaming platform ([AMQ
 Streams](https://www.redhat.com/en/resources/amq-streams-datasheet)) based on [Apache
-Kafka](https://kafka.apache.org/) and [Strimzi](https://strimzi.io/).
+Kafka](https://kafka.apache.org/) and [Strimzi](https://strimzi.io/). 
+I was also part of the effort to create 
+[Red Hat's managed Kafka offering](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka).
+Where I designed the build and deployment process, as well as the Kafka upgrade proceedures.
                     
 **[Twitter](http://www.Twitter.com/)**
 
@@ -63,7 +73,7 @@ acoustic computer modelling.
 
 (September 2015 - August 2020)
 
-My thesis won runner up in the [2020 SPEC Kaivalya Dixit Distinguished Dissertation Award](https://research.spec.org/news/single-view/article/winner-of-spec-kaivalya-dixit-distinguished-dissertation-award-2020.html):
+My [thesis](https://www.tomcooper.org.uk/phd/) won runner up in the [2020 SPEC Kaivalya Dixit Distinguished Dissertation Award](https://research.spec.org/news/single-view/article/winner-of-spec-kaivalya-dixit-distinguished-dissertation-award-2020.html):
 
 _"Given the high quality of dissertations nominated for this award, the committee decided
 to publicly recognize another dissertation as Runner Up, entitled 'Performance Modelling
