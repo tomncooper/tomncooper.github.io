@@ -4,9 +4,15 @@ title = "CV"
  
 ## Employment History
 
+**[Red Hat](https://www.redhat.com/)**
+
+Senior Principal Software Engineer (September 2024 - Present)
+
+I returned to Red Hat to help them build out their Apache Flink offering, which will be a part of their overall data streaming product.
+
 **[Reddit](https://reddit.com)**
 
-Staff Software Engineer (October 2022 - Present)
+Staff Software Engineer (October 2022 - September 2024)
 
 Working on the Data Processing and Work Foundation team. 
 Supporting Reddit's messaging (Apache Kafka) and stream processing (Apache Flink) infrastructure.

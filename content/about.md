@@ -12,7 +12,8 @@ In 2018 I spent several months working at Twitter to apply my research to their 
 After that I worked for Red Hat on their event streaming platform based on [Apache Kafka](https://kafka.apache.org/) and
 [Strimzi](https://strimzi.io/). 
 I also helped design and build [Red Hat's managed Kafka offering](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka).
-Now I work at [Reddit](https://reddit.com), helping to run thier internal messaging (Apache Kafka) and stream processing (Apache Flink) infrastructure.
+After Red Hat, I moved to [Reddit](https://reddit.com), helping to run their internal messaging (Apache Kafka) and stream processing (Apache Flink) infrastructure.
+Now I am back at Red Hat helping to build out their Apache Flink offering as part of their overall data streaming product.
 
 My PhD research was focused on modelling distributed stream processing systems. 
 These systems, such as [Apache Storm](https://storm.apache.org) and [Twitter Heron](https://twitter.github.io/heron/), can perform operations of vast amounts of data arriving in real time such as the billions of Tweets and associated events that are issued every day. 
