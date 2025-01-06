@@ -3,6 +3,10 @@ languageCode = "en-gb"
 theme = "terminal"
 paginate = 5
 
+ignoreErrors = ["error-remote-getjson"]
+
+ignoreLogs = ["shortcode-twitter-getremote"]
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -37,7 +41,7 @@ paginate = 5
   site = "tomncooper"
 
 [languages]
-  [languages.en]
+  [languages.en.params]
     languageName = "English"
     title = "/home/tom-cooper/personal-site"
     subtitle = "The personal site of Thomas Cooper"
