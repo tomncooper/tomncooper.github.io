@@ -1,10 +1,10 @@
 +++ 
 title = "About Me" 
 +++
-
+ 
 {{< image src="/images/me.jpg" alt="A picture of me" position="left" style="border-radius: 8px; width: 300px;" >}}
 
-Hi, I'm Tom and I am a Staff Software Engineer at [Reddit](https://www.reddit.com).  
+Hi, I'm Tom and I am a Senior Principal Software Engineer at [Red Hat](https://www.redhat.com).  
 
 My CV in a paragraph: I have a degree in Rocket Science ([yes really](https://le.ac.uk/courses/physics-with-space-science-bsc)), a Masters degree in Audio Acoustics, 7 years experience as an Acoustic Consultant, a Masters degree in Computer Science and I was accepted onto the inaugural year of Newcastle University's [Centre for Doctoral Training (CDT) in Cloud Computing for Big Data](http://www.bigdata-cdt.ac.uk). 
 Thanks to that I have a PGDip in Cloud Computing for Big Data and a PhD in distributed systems. 

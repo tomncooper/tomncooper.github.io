@@ -1,11 +1,9 @@
 baseurl = "/"
 languageCode = "en-gb"
 theme = "terminal"
-paginate = 5
+pagination.pagerSize = 5
 
-ignoreErrors = ["error-remote-getjson"]
-
-ignoreLogs = ["shortcode-twitter-getremote"]
+ignoreLogs = ['shortcode-x-getremote', 'warning-goldmark-raw-html']
 
 [params]
   # dir name of your blog content (default is `content/posts`)

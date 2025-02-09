@@ -26,7 +26,7 @@ Streams](https://www.redhat.com/en/resources/amq-streams-datasheet)) based on [A
 Kafka](https://kafka.apache.org/) and [Strimzi](https://strimzi.io/). 
 I was also part of the effort to create 
 [Red Hat's managed Kafka offering](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka).
-Where I designed the build and deployment process, as well as the Kafka upgrade proceedures.
+Where I designed the build and deployment process, as well as the Kafka upgrade procedures.
                     
 **[Twitter](http://www.Twitter.com/)**
 
@@ -89,7 +89,6 @@ committee were impressed by the industrial relevance of the application scenario
 sophistication of the modeling employed and the 'exquisite, well-articulated' writing in
 the dissertation."_
 
-
 [Newcastle University](http://www.ncl.ac.uk) - 
 [PGDip Cloud Computing for Big Data](http://www.ncl.ac.uk/computing/)
 
@@ -113,35 +112,3 @@ Technology](http://www2.le.ac.uk/study/ugp/physics/space)
 [Grove School & College](http://www.grove-school.co.uk/)
 
 (September 1995 - June 2002)
-
-## Computer Science Experience
-
-My Computer Science masters gave me a solid grounding in computer science theory, Java &
-Python development, as well as hardware programming (see RALF on the
-[projects]({filename}/pages/projects.md) page). 
- 
-My PgDip in cloud Computing for Big Data expanded my knowledge of distributed computing
-systems (such as [Apache Cassandra](http://cassandra.apache.org/)), machine learning
-(including [Weka](https://www.cs.waikato.ac.nz/ml/weka/) and
-[scikit-learn](http://scikit-learn.org/stable/)), big data analytics (using [Apache
-Spark](https://spark.apache.org/)), statistical analysis methods and also involved
-training in entrepreneurship and other professional skills.
-
-During my PhD I have developed in-depth knowledge of the [Apache
-Storm](http://storm.apache.org/) stream processing system, which is written in Java and
-Clojure. I have extended Storm as part of my research and created metrics-gathering
-services and data analysis pipelines using
-[InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/) and Python packages
-including numpy and pandas. I also have experience in graph analysis using
-[networkx](https://networkx.github.io/), [Neo4j](https://neo4j.com/),
-[Cypher](https://neo4j.com/developer/cypher-query-language/) and [Apache
-Tinkerpop](http://tinkerpop.apache.org/). I am an experienced Linux user (12+ years) and
-my research has expanded my Linux knowledge into deployment and debugging of distributed
-systems (using Ubuntu Linux and Azure).
-
-My internship with Twitter was focused on applying my research to Storm’s successor,
-[Apache Heron](http://heronstreaming.io/). Working with the Heron developers inside and
-outside Twitter I am creating a modelling service,
-[Caladrius](https://github.com/twitter-archive/caladrius), which incorporates data
-gathering, graph analysis and statistical modelling to predict the performance of Heron
-topologies. This code is in the process of being open-sourced.

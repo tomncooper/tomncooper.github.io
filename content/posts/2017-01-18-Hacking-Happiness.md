@@ -27,18 +27,18 @@ stories to show how the final app would look and feel.
 
 After several intense hours work:
 
-{{< tweet user="PetoMichalak" id="821388041109573634" >}}
+{{< x user="PetoMichalak" id="821388041109573634" >}}
 
 We had our prototype and gave our presentation to the judges:
 
-{{< tweet user="DigiCatapult" id="821436285495689218" >}}
+{{< x user="DigiCatapult" id="821436285495689218" >}}
 
 There were many innovative and much more functional applications than ours. But in the end
 the judges liked our combination of machine learning, smart devices and UI he most and
 declared us the winners!
 
-{{< tweet user="DigiCatapult" id="821450270500651013" >}}
+{{< x user="DigiCatapult" id="821450270500651013" >}}
 
 It was a great experience and I look forward to more hack-a-thons in the future!
 
-{{< tweet user="tomncooper" id="821723906990075905" >}}
+{{< x user="tomncooper" id="821723906990075905" >}}

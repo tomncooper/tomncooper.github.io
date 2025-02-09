@@ -1,6 +1,7 @@
 +++
 title = "Simple text diary with Git, Markdown and Bash"
 date = "2020-04-11"
+description = "As part of trying to be more productive whilst working from home I have been writing a daily work journal. This is to help with tracking what I have actually been doing with my time, as well as record all those times I go 'I really should learn not to do this again'"
 +++
 
 As part of trying to be more productive whilst working from home I have been writing a daily work journal. This is to help with tracking what I have actually been doing with my time, as well as record all those times I go "I really should learn not to do this again".

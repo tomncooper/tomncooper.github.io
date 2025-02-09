@@ -11,9 +11,9 @@ topologies to Twitter's [Heron](https://apache.github.io/incubator-heron/) syste
 I arrived last week and spent the time mainly getting over my jet lag and finding the
 grocery store!
 
-{{< tweet id="974410382142980096" user="tomncooper" >}}
+{{< x id="974410382142980096" user="tomncooper" >}}
 
 I really enjoyed the on-boarding sessions, learning all about Twitter's history (the
 company started out as a podcasting app!) and meeting my fellow Tweeps!
 
-{{< tweet id="975887275547508736" user="tomncooper" >}}
+{{< x id="975887275547508736" user="tomncooper" >}}

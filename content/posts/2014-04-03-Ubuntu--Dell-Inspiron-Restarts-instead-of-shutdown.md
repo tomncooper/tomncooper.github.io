@@ -15,7 +15,7 @@ very annoying.
 
 After much digging I found the post from DuckHook on [this
 thread](http://ubuntuforums.org/showthread.php?t=2188726) was the most helpful. The first
-suggestion of installing `laptop-mode-tools` and then running <kbd>$ laptop_mode</kbd>
+suggestion of installing `laptop-mode-tools` and then running `laptop_mode`
 made no detectable difference. However step 3 seemed to fix the problem. This involved
 telling the
 [ACPI](http://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface) not to
@@ -24,7 +24,7 @@ kernel might not have released. If these IRQ's were persisting, it could cause t
 (or in this case the UEFI) to cycle when the system goes to power down.
 
 So I edited the `/etc/default/grub` file so that the `GRUB_CMDLINE_LINUX_DEFAULT`  line
-included a `"acpi=noirq"` statement and then ran <kbd> $ sudo update-grub </kbd>.
+included a `"acpi=noirq"` statement and then ran `sudo update-grub`.
 
 This fixed the shutdown problem however I did suspect that the IRQ issue may not be the
 whole story. So I removed the acpi statement from the grub config file and updated grub

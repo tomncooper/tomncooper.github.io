@@ -1,6 +1,7 @@
 +++
 title = "Using glossaries with Pandoc Markdown"
 date = "2019-03-02"
+description = "Writing Pandoc markdown is way better than writing raw latex, but you still need to write raw latex when you use plugins. Unless you write a Pandoc plugin that generates the latex for you of course!"
 +++
 
 ## Pandoc Markdown
