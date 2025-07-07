@@ -8,6 +8,7 @@ Following on from my [blog post](https://strimzi.io/blog/2025/04/10/phased-strim
 
 The conference was full of interesting talks and it was great to see how companies and teams were using Strimzi to solve their issues and also make proposals of how to improve things. 
 
-My talk seemed to be well received and I got some good feedback on the approach. I will hopefully be able to find time to add a Helm or OLM example to the demo repository in the future.
+My talk seemed to be well received and I got some good feedback on the approach. 
+I will hopefully be able to find time to add a Helm or OLM example to the demo repository in the future.
 
-The recording will be up soon and the slides are available [here](/files/StrimziCon_2025_Phased_Upgrades.pdf).
+The recording is available on [youtube](https://youtu.be/pEuYFFkQCUU?si=2XQlgEw446cyBu3q) and the slides are available [here](/files/StrimziCon_2025_Phased_Upgrades.pdf).
