@@ -2,7 +2,13 @@
 {{- $query := querify "url" $link -}}
 {{- $request := printf "https://embed.bsky.app/oembed?%s" $query -}}
 
-{{- $jsonOembed := resources.GetRemote $request -}}
-{{- $jsonOembed = $jsonOembed | transform.Unmarshal -}}
-{{- $jsonOHTML := $jsonOembed.html -}}
-{{- $jsonOHTML | safeHTML -}}
+{{- with try (resources.GetRemote $request) -}}
+  {{- with .Err -}}
+    {{- warnf "Unable to fetch Bluesky embed for %q: %s. See %s" $link . $.Position -}}
+    <p><a href="{{ $link }}">View on Bluesky</a></p>
+  {{- else with .Value -}}
+    {{- $jsonOembed := . | transform.Unmarshal -}}
+    {{- $jsonOHTML := $jsonOembed.html -}}
+    {{- $jsonOHTML | safeHTML -}}
+  {{- end -}}
+{{- end -}}
