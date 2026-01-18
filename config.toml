@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://tomcooper.dev/"
 languageCode = "en-gb"
 theme = "terminal"
 pagination.pagerSize = 5
