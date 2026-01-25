@@ -9,8 +9,8 @@ ignoreLogs = ['shortcode-x-getremote', 'warning-goldmark-raw-html']
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+  # ["orange", "blue", "red", "green", "pink", "solarized-dark"]
+  themeColor = "solarized-dark"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 4
