@@ -1,5 +1,6 @@
 +++ 
-title = "PhD Research" 
+title = "PhD Research"
+math = true
 +++
 
 # Performance modelling of distributed stream processing topologies
@@ -232,25 +233,25 @@ the total number of iterations required to converge on a valid physical plan.
 ### Pre-emptive scaling
 
 In order to predict the performance of a proposed physical plan, the modelling system also
-needs to know the expected incoming workload (Y) into the topology. The system
+needs to know the expected incoming workload ($Y$) into the topology. The system
 could simply assume that the workload level will remain unchanged, but the imperative to
 perform a scaling action on the topology is usually due to a change in workload and so some
 notion of what that new workload level is likely to be must be provided. 
 
 A pessimistic approach to workload prediction could be to take the expected peak load into
 the topology, discerned from historical data, and find a physical plan that could perform at the
-target performance level (T_p) under that load. However, this would lead to significant
+target performance level ($T_p$) under that load. However, this would lead to significant
 over provisioning and ignores one of the key features of DSPS, namely the ability to
 scale dynamically as input workload changes.
 
-If incoming workload levels could be forecast some time (tau_f) into the future, then this
+If incoming workload levels could be forecast some time ($\tau_f$) into the future, then this
 would allow an auto-scaling system to model the effect of that predicted workload level
-(Y_hat) on the currently running physical plan. If the predicted performance level
-(T_p^{Y_hat}) of the proposed physical plan does not meet the required
-performance level (T_r) for the predicted workload level, then the system can
-_pre-emptively_ begin the scaling operations. Ideally tau_f would be longer than the time
-taken to perform the modelling process (tau_mode) and for the topology scaling operations
-to complete (tau_scale). If tau_f > tau_model + tau_scale then the scaling operation could
+($\hat{Y}$) on the currently running physical plan. If the predicted performance level
+($T_p^{\hat{Y}}$) of the proposed physical plan does not meet the required
+performance level ($T_r$) for the predicted workload level, then the system can
+_pre-emptively_ begin the scaling operations. Ideally $\tau_f$ would be longer than the time
+taken to perform the modelling process ($\tau_{model}$) and for the topology scaling operations
+to complete ($\tau_{scale}$). If $\tau_f > \tau_{model} + \tau_{scale}$ then the scaling operation could
 be completed before the new workload level was expected to arrive and the performance
 target could be maintained. This processes is illustrated in Figure 6.
 

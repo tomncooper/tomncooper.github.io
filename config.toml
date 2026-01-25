@@ -5,6 +5,15 @@ pagination.pagerSize = 5
 
 ignoreLogs = ['shortcode-x-getremote', 'warning-goldmark-raw-html']
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
